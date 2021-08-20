@@ -502,6 +502,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>RestrictEvents.kext</string>
+				<key>Comment</key>
+				<string>Memory Issue</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RestrictEvents</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
 				<string>Video card</string>
@@ -614,7 +632,7 @@
 				<key>Comment</key>
 				<string>RX580Boost</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -653,6 +671,42 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>SMCBatteryManager.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCBatteryManager</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>SMCLightSensor.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCLightSensor</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -918,7 +972,7 @@
 				<key>boot-args</key>
 				<string>-lilubetaall agdpmod=pikera -disablegfxfirmware -no_compat_check</string>
 				<key>csr-active-config</key>
-				<data>5wMAAA==</data>
+				<data>Z/AAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
 			</dict>
@@ -945,9 +999,9 @@
 			<key>ARTFrequency</key>
 			<integer>0</integer>
 			<key>BoardProduct</key>
-			<string></string>
+			<string>Mac-27ADBB7B4CEE8E61</string>
 			<key>BoardRevision</key>
-			<data>CQ==</data>
+			<data></data>
 			<key>DevicePathsSupported</key>
 			<integer>0</integer>
 			<key>FSBFrequency</key>
@@ -957,19 +1011,19 @@
 			<key>PlatformName</key>
 			<string></string>
 			<key>SmcBranch</key>
-			<data></data>
+			<data>ajE2ajE3AAA=</data>
 			<key>SmcPlatform</key>
-			<data></data>
+			<data>ajE3AAAAAAA=</data>
 			<key>SmcRevision</key>
-			<data></data>
+			<data>AhUPAAAH</data>
 			<key>StartupPowerEvents</key>
 			<integer>0</integer>
 			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
+			<string>iMac14,2</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>D25KR0X9F8JC</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>E7A30CA8-3DC0-4B60-8ED4-AA1C6CE894C9</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -978,9 +1032,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string></string>
+			<string>D25321102GUF8YL1H</string>
 			<key>ProcessorType</key>
-			<integer>1281</integer>
+			<integer>1541</integer>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
@@ -988,28 +1042,85 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
+			<string>iMac14,2</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>D25KR0X9F8JC</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>E7A30CA8-3DC0-4B60-8ED4-AA1C6CE894C9</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
 			<key>BID</key>
-			<string>Mac-27AD2F918AE68F61</string>
+			<string>Mac-27ADBB7B4CEE8E61</string>
 			<key>FirmwareFeatures</key>
-			<data>ZvCv/QAAAAA=</data>
+			<data>N+EP4AAAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>f////wAAAAA=</data>
+			<data>P/8f/wAAAAA=</data>
 			<key>MLB</key>
-			<string></string>
+			<string>D25321102GUF8YL1H</string>
 			<key>ROM</key>
 			<data></data>
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
-			<string>8B3BA0C5-DC31-49E0-B01E-DAD56E399823</string>
+			<string>E7A30CA8-3DC0-4B60-8ED4-AA1C6CE894C9</string>
+		</dict>
+		<key>SMBIOS</key>
+		<dict>
+			<key>BIOSReleaseDate</key>
+			<string>06/13/2021</string>
+			<key>BIOSVendor</key>
+			<string></string>
+			<key>BIOSVersion</key>
+			<string>431.140.6.0.0</string>
+			<key>BoardAssetTag</key>
+			<string>Base Board Asset Tag</string>
+			<key>BoardLocationInChassis</key>
+			<string>Part Component</string>
+			<key>BoardManufacturer</key>
+			<string></string>
+			<key>BoardProduct</key>
+			<string>Mac-27ADBB7B4CEE8E61</string>
+			<key>BoardSerialNumber</key>
+			<string>D25321102GUF8YL1H</string>
+			<key>BoardType</key>
+			<integer>10</integer>
+			<key>BoardVersion</key>
+			<string>iMac14,2</string>
+			<key>ChassisAssetTag</key>
+			<string>Asset Tag#</string>
+			<key>ChassisManufacturer</key>
+			<string></string>
+			<key>ChassisSerialNumber</key>
+			<string>D25KR0X9F8JC</string>
+			<key>ChassisType</key>
+			<integer>13</integer>
+			<key>ChassisVersion</key>
+			<string>Mac-27ADBB7B4CEE8E61</string>
+			<key>FirmwareFeatures</key>
+			<data>N+EP4AAAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>P/8f/wAAAAA=</data>
+			<key>PlatformFeature</key>
+			<integer>1</integer>
+			<key>ProcessorType</key>
+			<integer>1541</integer>
+			<key>SmcVersion</key>
+			<data></data>
+			<key>SystemFamily</key>
+			<string>iMac</string>
+			<key>SystemManufacturer</key>
+			<string></string>
+			<key>SystemProductName</key>
+			<string>iMac14,2</string>
+			<key>SystemSKUNumber</key>
+			<string>System SKU#</string>
+			<key>SystemSerialNumber</key>
+			<string>D25KR0X9F8JC</string>
+			<key>SystemUUID</key>
+			<string>E7A30CA8-3DC0-4B60-8ED4-AA1C6CE894C9</string>
+			<key>SystemVersion</key>
+			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1045,6 +1156,8 @@
 			<string>Auto</string>
 			<key>CustomDelays</key>
 			<false/>
+			<key>GraphicsInputMirroring</key>
+			<false/>
 			<key>KeyInitialDelay</key>
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
@@ -1059,7 +1172,7 @@
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string></string>
+			<string>PciRoot(0x0)/Pci(0x1C,0x3)/Pci(0x0,0x0)/Pci(0x1,0x0)</string>
 			<key>AudioOut</key>
 			<integer>0</integer>
 			<key>AudioSupport</key>
@@ -1067,7 +1180,7 @@
 			<key>MinimumVolume</key>
 			<integer>0</integer>
 			<key>PlayChime</key>
-			<string>Auto</string>
+			<string>Enabled</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
@@ -1136,7 +1249,7 @@
 		<key>ProtocolOverrides</key>
 		<dict>
 			<key>AppleAudio</key>
-			<false/>
+			<true/>
 			<key>AppleBootPolicy</key>
 			<false/>
 			<key>AppleDebugLog</key>
